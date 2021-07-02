@@ -123,7 +123,7 @@ func evaluateBoard(searcher *Searcher) (score int) {
 func evaluateSide(board *Board, usColor, enemyColor int) (score int) {
 	score += evaluateMaterial(board, usColor)
 	score += evaluatePosition(board, usColor)
-	score += EvaluateKingSaftey(board, usColor, enemyColor)
+	//score += EvaluateKingSaftey(board, usColor, enemyColor)
 	return score
 }
 
