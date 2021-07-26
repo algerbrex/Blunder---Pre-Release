@@ -1,3 +1,9 @@
+NOTICE
+------
+
+This repository is no longer being maintained, and was released as an early version of [blunder](https://github.com/algerbrex/blunder). This version has a variety of significant bugs and missing features, which doesn't make it suitable for being an actual release. The code here is open source and will remain here for the foreseeable feature, so feel free to still look around.
+-------
+
 Blunder is a chess engine that is a work in progress. Currently it implements a negamax search algorithm,
 with alpha-beta pruning, a transposition table, iterative deepening, move ordering, quiesence search and
 a basic opening book. A working binary compiled on a linux machine is included. To compile the code yourself,
